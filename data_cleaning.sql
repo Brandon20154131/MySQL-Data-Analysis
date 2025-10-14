@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-Data Cleaning
+Corporate Layoffs Data Cleaning
 ===============================================================================
 Description:
     - This script performs a comprehensive data cleaning process on the 'layoffs' dataset.
