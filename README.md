@@ -81,10 +81,5 @@ MySQL-Data-Analysis/
 ├── exploratory_analysis.sql          # SQL script containing analytical and summary queries
 ├── layoffs.json                      # Original dataset (raw source data)
 │
-├── README.md                         # Project overview and instructions
-└── LICENSE                           # License information for the repository
+└── README.md                         # Project overview and instructions 
 ```
----
-
-## 🛡️ License
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
