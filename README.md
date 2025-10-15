@@ -20,7 +20,7 @@ It is divided into two key phases:
 
 The data_cleaning.sql script ensures high-quality, analysis-ready data.
 
-####Key Steps:
+#### Key Steps:
 - Create a staging table to preserve the raw dataset (best practice).
 - Remove duplicates using window functions with ROW_NUMBER().
 - Standardise text fields like company names, industries and countries.
@@ -28,7 +28,7 @@ The data_cleaning.sql script ensures high-quality, analysis-ready data.
 - Handle NULL and blank values consistently.
 - Remove irrelevant or incomplete rows and unnecessary columns.
 
-####Best Practices Applied:
+#### Best Practices Applied:
 - Always perform cleaning in a staging environment to protect raw data.
 - Validate results after each transformation step.
 - Use clear, well-documented SQL logic for reproducibility.
