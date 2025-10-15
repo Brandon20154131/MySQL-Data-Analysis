@@ -1,6 +1,8 @@
-🧩 MySQL-Layoffs-Analysis
-
+# MySQL-Data-Analysis
 Data cleaning and exploratory analysis of global corporate layoffs using MySQL.
+# Data Analytics Project
+
+
 
 📖 Project Overview
 
