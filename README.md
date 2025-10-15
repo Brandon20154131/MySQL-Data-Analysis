@@ -7,8 +7,8 @@ Data cleaning and exploratory analysis of global corporate layoffs using MySQL.
 
 This project focuses on cleaning, transforming and analysing a real-world dataset of global layoffs using MySQL. 
 It is divided into two key phases:
-- **Data Cleaning**: Preparing raw data for analysis by handling duplicates, standardizing fields, and formatting dates.
-- **Exploratory Data Analysis (EDA)**: Running SQL-based queries to uncover patterns, trends, and insights in the layoffs data.
+**Data Cleaning**: Preparing raw data for analysis by handling duplicates, standardizing fields, and formatting dates.
+**Exploratory Data Analysis (EDA)**: Running SQL-based queries to uncover patterns, trends, and insights in the layoffs data.
 
 
 
