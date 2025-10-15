@@ -15,7 +15,8 @@ It is divided into two key phases:
 
 
 
-🧹 Data Cleaning Process
+---
+### 🧹 Data Cleaning Process
 
 The data_cleaning.sql script ensures high-quality, analysis-ready data.
 
