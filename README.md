@@ -42,7 +42,8 @@ Validate results after each transformation step.
 
 Use clear, well-documented SQL logic for reproducibility.
 
-📊 Exploratory Data Analysis
+---
+### 📊 Exploratory Data Analysis
 
 The exploratory_analysis.sql script builds on the cleaned dataset (layoffs_staging2) to generate insights through SQL queries.
 
@@ -54,9 +55,11 @@ The exploratory_analysis.sql script builds on the cleaned dataset (layoffs_stagi
 - **Layoff Classification**: Categorise events (e.g., Full , Large , Medium , Small).
 - **Stored Procedure**: Parameterized query to analyze layoffs by country and industry dynamically.
 - **Example**: CALL CountryIndustryBreakdown('United States', 5);
+
   Returns the top 5 industries with the most layoffs in the United States.
 
-🧠 Insights Gained
+---
+### 🧠 Insights Gained
 
 Yearly and monthly trends in global layoffs.
 Industries most affected by large-scale layoffs.
