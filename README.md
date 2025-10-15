@@ -29,6 +29,7 @@ Handle NULL and blank values consistently.
 Remove irrelevant or incomplete rows and unnecessary columns.
 
 - **Best Practices Applied**:
+
 Always perform cleaning in a staging environment to protect raw data.
 
 Validate results after each transformation step.
