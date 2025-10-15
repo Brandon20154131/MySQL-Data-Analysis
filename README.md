@@ -20,17 +20,19 @@ It is divided into two key phases:
 
 The data_cleaning.sql script ensures high-quality, analysis-ready data.
 
-Key Steps:
+- **Key Steps**:
 Create a staging table to preserve the raw dataset (best practice).
 Remove duplicates using window functions with ROW_NUMBER().
-Standardize text fields like company names, industries, and countries.
+Standardize text fields like company names, industries and countries.
 Convert and format date fields for time-series analysis.
 Handle NULL and blank values consistently.
 Remove irrelevant or incomplete rows and unnecessary columns.
 
-Best Practices Applied:
+- **Best Practices Applied**:
 Always perform cleaning in a staging environment to protect raw data.
+
 Validate results after each transformation step.
+
 Use clear, well-documented SQL logic for reproducibility.
 
 ---
@@ -39,12 +41,12 @@ Use clear, well-documented SQL logic for reproducibility.
 The exploratory_analysis.sql script builds on the cleaned dataset (layoffs_staging2) to generate insights through SQL queries.
 
 #### Analysis Highlights:
-- **Aggregations**: Total layoffs by company, country, industry, and year.
+- **Aggregations**: Total layoffs by company, country, industry and year.
 - **Rolling Totals**: Cumulative layoffs tracked month over month.
 - **Ranking Queries**: Identify top companies and industries by layoff volume.
 - **Outlier Detection (IQR Method)**: Flag abnormal layoffs by industry.
 - **Layoff Classification**: Categorise events (e.g., Full , Large , Medium , Small).
-- **Stored Procedure**: Parameterized query to analyze layoffs by country and industry dynamically.
+- **Stored Procedure**: Parameterized query to analyse layoffs by country and industry dynamically.
 - **Example**: CALL CountryIndustryBreakdown('United States', 5);
 
   Returns the top 5 industries with the most layoffs in the United States.
