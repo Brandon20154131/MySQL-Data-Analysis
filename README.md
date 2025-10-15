@@ -21,25 +21,16 @@ It is divided into two key phases:
 The data_cleaning.sql script ensures high-quality, analysis-ready data.
 
 Key Steps:
-
 Create a staging table to preserve the raw dataset (best practice).
-
 Remove duplicates using window functions with ROW_NUMBER().
-
 Standardize text fields like company names, industries, and countries.
-
 Convert and format date fields for time-series analysis.
-
 Handle NULL and blank values consistently.
-
 Remove irrelevant or incomplete rows and unnecessary columns.
 
 Best Practices Applied:
-
 Always perform cleaning in a staging environment to protect raw data.
-
 Validate results after each transformation step.
-
 Use clear, well-documented SQL logic for reproducibility.
 
 ---
@@ -62,8 +53,11 @@ The exploratory_analysis.sql script builds on the cleaned dataset (layoffs_stagi
 ### 🧠 Insights Gained
 
 Yearly and monthly trends in global layoffs.
+
 Industries most affected by large-scale layoffs.
+
 Top companies contributing to total layoffs over time.
+
 Outlier detection helps identify unusual corporate downsizing events.
 
 ---
