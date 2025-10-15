@@ -2,9 +2,8 @@
 Data cleaning and exploratory analysis of global corporate layoffs using MySQL.
 # Data Analytics Project
 
-
-
-📖 Project Overview
+---
+## 📖 Project Overview
 
 This project focuses on cleaning, transforming, and analyzing a real-world dataset of global layoffs using MySQL. It is divided into two key phases:
 
@@ -12,15 +11,24 @@ Data Cleaning — Preparing raw data for analysis by handling duplicates, standa
 
 Exploratory Data Analysis (EDA) — Running SQL-based queries to uncover patterns, trends, and insights in the layoffs data.
 
-⚙️ Project Structure
-mysql-layoffs-analysis/
+## 📂 Repository Structure
+```
+MySQL-Data-Analysis/
 │
 ├── data_cleaning.sql                 # Full SQL script for data cleaning & preprocessing
 ├── exploratory_analysis.sql          # SQL script containing analytical and summary queries
 ├── layoffs.json                      # Original dataset (raw source data)
 │
-├── README.md                         # Project documentation
-└── LICENSE                           # License information
+├── README.md                         # Project overview and instructions
+└── LICENSE                           # License information for the repository
+```
+---
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+
+
 
 🧹 Data Cleaning Process
 
@@ -52,52 +60,34 @@ Use clear, well-documented SQL logic for reproducibility.
 
 The exploratory_analysis.sql script builds on the cleaned dataset (layoffs_staging2) to generate insights through SQL queries.
 
-Analysis Highlights:
-
-Aggregations — Total layoffs by company, country, industry, and year.
-
-Rolling Totals — Cumulative layoffs tracked month over month.
-
-Ranking Queries — Identify top companies and industries by layoff volume.
-
-Outlier Detection (IQR Method) — Flag abnormal layoffs by industry.
-
-Layoff Classification — Categorize events (e.g., “Full”, “Large”, “Medium”, “Small”).
-
-Stored Procedure — Parameterized query to analyze layoffs by country and industry dynamically.
-
-Example:
-CALL CountryIndustryBreakdown('United States', 5);
-
-
-➡️ Returns the top 5 industries with the most layoffs in the United States.
+#### Analysis Highlights:
+- **Aggregations**: Total layoffs by company, country, industry, and year.
+- **Rolling Totals**: Cumulative layoffs tracked month over month.
+- **Ranking Queries**: Identify top companies and industries by layoff volume.
+- **Outlier Detection (IQR Method)**: Flag abnormal layoffs by industry.
+- **Layoff Classification**: Categorize events (e.g., “Full”, “Large”, “Medium”, “Small”).
+- **Stored Procedure**: Parameterized query to analyze layoffs by country and industry dynamically.
+- **Example**:
+- **CALL CountryIndustryBreakdown('United States', 5);**
+- **➡️ Returns the top 5 industries with the most layoffs in the United States.**
 
 🧠 Insights Gained
 
 Yearly and monthly trends in global layoffs.
-
 Industries most affected by large-scale layoffs.
-
 Top companies contributing to total layoffs over time.
-
 Outlier detection helps identify unusual corporate downsizing events.
 
 🧱 Tools & Technologies
 
 Database: MySQL 8.0+
-
 Language: SQL (CTEs, Window Functions, CASE statements)
-
 Dataset: layoffs.json (transformed into relational format)
 
 🧭 Best Practices Followed
-
 Work from raw → staging → cleaned layers.
-
 Document each transformation within scripts for transparency.
-
 Apply consistent naming conventions and clear code comments.
-
 Use parameterized procedures for flexible, reusable queries.
 
 🛡️ License
