@@ -52,7 +52,7 @@ The exploratory_analysis.sql script builds on the cleaned dataset (layoffs_stagi
 - **Layoff Classification**: Categorise events (e.g., Full , Large , Medium , Small).
 - **Stored Procedure**: Parameterized query to analyze layoffs by country and industry dynamically.
 - **Example**: CALL CountryIndustryBreakdown('United States', 5);
-- Returns the top 5 industries with the most layoffs in the United States.
+  Returns the top 5 industries with the most layoffs in the United States.
 
 🧠 Insights Gained
 
