@@ -64,15 +64,15 @@ Outlier detection helps identify unusual corporate downsizing events.
 
 ---
 ## 🧱 Tools & Technologies
-Database: MySQL 8.0+
-Language: SQL (CTEs, Window Functions, CASE statements)
-Dataset: layoffs.json (transformed into relational format)
+- **Database**: MySQL 8.0+
+- **Language**: SQL (CTEs, Window Functions, CASE statements)
+- **Dataset**: layoffs.json (transformed into relational format)
 
 🧭 Best Practices Followed
-Work from raw → staging → cleaned layers.
-Document each transformation within scripts for transparency.
-Apply consistent naming conventions and clear code comments.
-Use parameterized procedures for flexible, reusable queries.
+- **Work from raw → staging → cleaned layers.**
+- **Document each transformation within scripts for transparency.**
+- **Apply consistent naming conventions and clear code comments.**
+- **Use parameterized procedures for flexible, reusable queries.**
 
 
 ## 📂 Repository Structure
