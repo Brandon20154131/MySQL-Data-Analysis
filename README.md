@@ -49,11 +49,10 @@ The exploratory_analysis.sql script builds on the cleaned dataset (layoffs_stagi
 - **Rolling Totals**: Cumulative layoffs tracked month over month.
 - **Ranking Queries**: Identify top companies and industries by layoff volume.
 - **Outlier Detection (IQR Method)**: Flag abnormal layoffs by industry.
-- **Layoff Classification**: Categorize events (e.g., “Full”, “Large”, “Medium”, “Small”).
+- **Layoff Classification**: Categorise events (e.g., Full , Large , Medium , Small).
 - **Stored Procedure**: Parameterized query to analyze layoffs by country and industry dynamically.
-- **Example**:
-- **CALL CountryIndustryBreakdown('United States', 5);**
-- **➡️ Returns the top 5 industries with the most layoffs in the United States.**
+- **Example**: CALL CountryIndustryBreakdown('United States', 5);
+- Returns the top 5 industries with the most layoffs in the United States.
 
 🧠 Insights Gained
 
@@ -68,7 +67,7 @@ Outlier detection helps identify unusual corporate downsizing events.
 - **Language**: SQL (CTEs, Window Functions, CASE statements)
 - **Dataset**: layoffs.json (transformed into relational format)
 
-🧭 Best Practices Followed
+Best Practices Followed
 - **Work from raw → staging → cleaned layers.**
 - **Document each transformation within scripts for transparency.**
 - **Apply consistent naming conventions and clear code comments.**
