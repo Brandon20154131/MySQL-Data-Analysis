@@ -11,22 +11,6 @@ Data Cleaning — Preparing raw data for analysis by handling duplicates, standa
 
 Exploratory Data Analysis (EDA) — Running SQL-based queries to uncover patterns, trends, and insights in the layoffs data.
 
-## 📂 Repository Structure
-```
-MySQL-Data-Analysis/
-│
-├── data_cleaning.sql                 # Full SQL script for data cleaning & preprocessing
-├── exploratory_analysis.sql          # SQL script containing analytical and summary queries
-├── layoffs.json                      # Original dataset (raw source data)
-│
-├── README.md                         # Project overview and instructions
-└── LICENSE                           # License information for the repository
-```
----
-
-## 🛡️ License
-
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
 
 
@@ -78,8 +62,8 @@ Industries most affected by large-scale layoffs.
 Top companies contributing to total layoffs over time.
 Outlier detection helps identify unusual corporate downsizing events.
 
-🧱 Tools & Technologies
-
+---
+## 🧱 Tools & Technologies
 Database: MySQL 8.0+
 Language: SQL (CTEs, Window Functions, CASE statements)
 Dataset: layoffs.json (transformed into relational format)
@@ -90,7 +74,19 @@ Document each transformation within scripts for transparency.
 Apply consistent naming conventions and clear code comments.
 Use parameterized procedures for flexible, reusable queries.
 
-🛡️ License
 
-This project is licensed under the MIT License
-. You may use, modify, and share it with proper attribution.
+## 📂 Repository Structure
+```
+MySQL-Data-Analysis/
+│
+├── data_cleaning.sql                 # Full SQL script for data cleaning & preprocessing
+├── exploratory_analysis.sql          # SQL script containing analytical and summary queries
+├── layoffs.json                      # Original dataset (raw source data)
+│
+├── README.md                         # Project overview and instructions
+└── LICENSE                           # License information for the repository
+```
+---
+
+## 🛡️ License
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
